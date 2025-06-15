@@ -33,6 +33,7 @@ console.log(Math.floor(Math.random()*10) +1);
 const min = 10 
 const max = 20
 // remember this formula 
-// range 
+// range git push origin main
+
 
 console.log(Math.floor(Math.random() * (max-min + 1 ))+min)
