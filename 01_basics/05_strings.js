@@ -7,6 +7,7 @@ console.log(`hello my name is ${name}and my repo count is ${repocount}`);
 const gameName = new String("asaad")
 
 console.log(gameName.__proto__);
+//fdfs 
 
 //console.log(gameName.length);
 //console.log(gameName.toLowerCase);
