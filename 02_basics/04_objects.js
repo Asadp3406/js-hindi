@@ -45,3 +45,16 @@ const users = [
 users[1].email;
 //keys are in form of array
 console.log(Object.keys(tinderuser));
+
+
+const course = {
+     "name": "hitesh",
+     "coursename": "js in hindi",
+     "price": "free"
+}
+
+//destrucher
+//course.coursename
+const{coursename:cou}= course
+console.log(cou);
+
