@@ -1,7 +1,19 @@
-const user = {
-    username : "asad",
-    logincount : 3 , 
-    signedin : true 
+// const user = {
+//     username : "asad",
+//     logincount : 3 , 
+//     signedin : true 
 
+// }
+// console.log(user());
+
+
+function user (username,logincount,isloggedin){
+   this.username = username
+   this.logincount=logincount
+   this.isloggedin=isloggedin
+ 
+  // return this 
 }
-console.log(user());
+const userone = new user("Asad",34,true)
+console.log(userone);
+
